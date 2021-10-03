@@ -1,4 +1,4 @@
-/* SECOND PART */
+/* THIRD PART */
 
 * {
     margin: 10px;
@@ -99,9 +99,33 @@
     .section { 
         background: #fff734;
         flex-direction: column; /* the aside must pass below */
-        } 
+        }
+    
+    .menu {
+        flex-direction: column;
+        height: auto;
+    }
+
+    . aside {
+        display: flex;
+        justify-content: center;
+    }
             
 }
 
-/* SECOND PART FINAL */
+@media all and (max-width: 600px) {
+
+    .articles {
+        flex-direction: column;
+    }
+    
+@media all and (max-width: 400px) {
+
+    .aside {
+        flex-direction: column;
+    }
+    
+}
+
+/* THIRD PART FINAL */
 
