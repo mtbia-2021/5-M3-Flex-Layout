@@ -1,4 +1,4 @@
-/* FIRST PART */
+/* SECOND PART */
 
 * {
     margin: 10px;
@@ -21,21 +21,26 @@
             background: #27394e;
             display: flex;
             flex-flow: row nowrap;
-            height: 50px;
+            height: 100px;
             align-items: center;
         }
 
             .logo {
                 background: #ea584b;
                 flex: 1 1 auto;
+                height: 30px;
             }
             .nav-main {
                 flex: 5 1 auto;
                 background: #ea584b;
+                height: 30px;
+
             }
             .social {
                 background: #ea584b;
                 flex: 1 1 auto;
+                height: 30px;
+
             }
 
         .text-main {
@@ -61,17 +66,17 @@
                 flex: 1 1 40%;
             }
 
-            .navegacio {
+            .nav-articles {
                 background: #6399bb;
-                flex: 1 1 100%;
+                flex: 1 1 auto%;
             }
 
         .aside { /* quan la pantalla arriba a 800 ha e posar els anuncis un sota l'altre */ /* mediaQuery a secction */
             background: #f94c47;
-            flex: 1 1 auto;
+            flex: 2 1 100%;
         }
 
-            .publicitat {
+            .publicity {
                 background: #ffe380;
             }
         
@@ -81,44 +86,27 @@
         justify-content: center;
     }
 
-        .foot {
+        .nav-foot {
             background: #e4a434;
-            flex: 1 1 auto;
-            /*width: 300px;*/
+            width: 300px;
         }
 
-/* FIRST PART FINAL */
+@media all and (max-width: 800px) { /* from 0 to 800 will apply the following style */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*@media all and (max-width: 800px) {
-
-    .section {
-        flex-direction: column;
+    .section { 
+        background: #fff734;
+        flex-direction: column; /* the aside must pass below */
     } 
-
-    .aside {
-        display: flex;
-        justify-content: center;
-    }
     
 }
 
+/* SECOND PART FINAL */
+
+
+
+
+
+/*
 @media all and (max-width: 600px) {
     .articles {
         flex-direction: column;
@@ -133,7 +121,20 @@
     .menu {
         flex-direction: column;
         height: auto;
-    }*/
+    }
+
+    */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
