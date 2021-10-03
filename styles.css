@@ -64,16 +64,17 @@
             .article {
                 background: #1664a4;
                 flex: 1 1 40%;
+                display: flex;
             }
 
             .nav-articles {
                 background: #6399bb;
-                flex: 1 1 auto%;
+                flex: 1 1 100%;
             }
 
         .aside { /* quan la pantalla arriba a 800 ha e posar els anuncis un sota l'altre */ /* mediaQuery a secction */
             background: #f94c47;
-            flex: 2 1 100%;
+            flex: 1 1 auto;
         }
 
             .publicity {
@@ -91,22 +92,16 @@
             width: 300px;
         }
 
+
+        
 @media all and (max-width: 800px) { /* from 0 to 800 will apply the following style */
 
     .section { 
         background: #fff734;
         flex-direction: column; /* the aside must pass below */
-    } 
-    
+        } 
+            
 }
 
 /* SECOND PART FINAL */
-
-
-
-
-
-
-
-
 
